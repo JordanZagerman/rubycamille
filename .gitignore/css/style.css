@@ -1,0 +1,30 @@
+* {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: maroon; */
+}
+
+body {
+    background-color: black;
+}
+
+.black-box{
+    background-color: black;
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    animation-name: fade-in-opening;
+    animation-duration: 4s;
+    
+}
+.white-box{
+    background-color: white;
+    position: relative;
+    padding: 10px 10px 30px 10px;
+    animation-name: fade-in-opening;
+    animation-duration: 5s;
+}
+
+@keyframes fade-in-opening {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
